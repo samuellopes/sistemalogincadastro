@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title> Testando conexão ao banco de dados </title>
+<meta charset="utf-8">
+</head>
+<body>
+ <h3>Formulário de Cadastro de Clientes</h3><br>
+ <form name="Cadastro" action="processo.php" method="POST">
+ <br>
+ <label>Nome:</label><input type="text" name="nome" size="30"><br><br>
+ <label>Email: </label><input type="email" name="email" size="45"><br><br>
+ <label>Senha: </label><input type="password" name="senha" size="12"><br><br>
+ <input type="submit" name="enviar" value="Enviar">
+ </form>
+ <br>
+ <br>
+ <hr>
+ <h3>Consulta de Clientes Completo</h3><br>
+ <form name="Cadastro" action="consulta.php" method="POST">
+   <label>Consulta a Banco de Dados completo:</label>
+   <input type="submit" name="consulta-completa" value="Consultar">
+ </form>
+ </body>
+</html>
